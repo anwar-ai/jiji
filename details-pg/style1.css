@@ -1,0 +1,67 @@
+.carousel,.slide{
+    width: 400px;
+    margin-left: 3%;
+}
+
+.description{
+    margin-left: 3%;
+    width: 50%;
+    color: gray;
+}
+.pname{
+    margin-left: 3%;
+    width: 80%;
+    color: #D81B60;
+}
+
+    
+.order-form{
+    width: 640px; 
+    height: 700px
+}
+#logo{
+    width: 50px;
+}
+.fb-share-button{
+    margin-left: 40px;
+}
+
+
+.whatsapp{
+    display: ;
+    color: #1DC143;
+  }
+  
+  .whatsapp:hover, .whatsapp:focus{
+    background: #1DC143;
+    color: #fff;
+    text-shadow: 0 0 1px rgba(0,0,0,0.2);
+  }
+  
+  .whatsapp.activeWhatsapp{
+    display: inline-block;
+  }
+
+@media screen and (max-width: 600px){
+    .card1,.card2,.card3{
+        width: 100%;
+    }
+    .map{
+        width: 300px;
+        margin-left: 3%;
+        
+    }
+    .description{
+        width: 300px;
+        
+    }
+    .order-form{
+        width: 330px;
+    }
+    .carousel,.slide{
+        width :270px;
+    }
+    #logo{
+        width: 40px;
+    }
+}
